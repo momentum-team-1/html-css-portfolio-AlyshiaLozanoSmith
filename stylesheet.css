@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: #553555;
+    color: #DAD2D8;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-bottom: 10px solid  #012622;
+
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+nav a{
+    color: #DAD2D8;
+    text-decoration: none;
+}
+
+.bio{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+
+}
+ .bio-text{
+     display: inline-block;
+     width: 40%;
+ }
+
+#headshot{
+    width: 33%;
+    height: 33%;
+}
