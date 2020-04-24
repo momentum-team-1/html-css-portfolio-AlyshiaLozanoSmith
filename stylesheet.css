@@ -10,6 +10,7 @@ header{
     flex-flow: wrap;
     justify-content: space-between;
     border-bottom: 10px solid  #012622;
+    height: 8rem;
 
 }
 
@@ -62,3 +63,42 @@ nav a{
 }
 
 /*Resume*/
+.resume{
+    display: flex;
+    flex-flow: wrap;
+}
+.left{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    background-color: rgba(57, 27,55, 0.4);
+}
+
+.left h4{
+    color: #DAD2D8;
+}
+
+.left h2{
+    padding-top: 2rem;
+}
+
+#summary a{
+    background-color: #012622;
+    color: white;
+    width: 5rem;
+    margin: .1rem;
+
+}
+
+.res-content{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    justify-items: flex-end;
+    padding-left: 2rem;
+}
+
+h4{
+    color: gray;
+}
+
