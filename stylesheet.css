@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: #553555;
+    color: #DAD2D8;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-bottom: 10px solid  #012622;
+    height: 8rem;
+
+}
+
+header h1{
+    margin-left: 5%;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+nav a{
+    color: #DAD2D8;
+    text-decoration: none;
+}
+/*Home page*/
+.bio{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+
+}
+ .bio-text{
+     display: inline-block;
+     width: 40%;
+ }
+
+#headshot{
+    width: 33%;
+    height: 33%;
+}
+
+
+/* Portfolio */
+.sidebar{
+    display: flex;
+    background-color: rgba(57, 27,55, 0.4); 
+    flex-flow: column;
+    width: 25%;
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/*Resume*/
+.resume{
+    display: flex;
+    flex-flow: wrap;
+}
+.left{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    background-color: rgba(57, 27,55, 0.4);
+}
+
+.left h4{
+    color: #DAD2D8;
+}
+
+.left h2{
+    padding-top: 2rem;
+}
+
+#summary a{
+    background-color: #012622;
+    color: white;
+    width: 5rem;
+    margin: .1rem;
+
+}
+
+.res-content{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    justify-items: flex-end;
+    padding-left: 2rem;
+}
+
+h4{
+    color: gray;
+}
+
